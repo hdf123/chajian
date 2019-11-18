@@ -10,8 +10,30 @@
         <link rel="stylesheet" href="dist/image-clip.css" />
         <link rel="stylesheet" href="common/clip.css" />
     </head>
-
+<style>
+	.box{
+		position: fixed;
+		left:0;
+		right:0;
+		bottom:0;
+		display: flex;
+	}
+	.box>a{
+		width:50%;
+		height:50px;
+		display: inline-block;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background:rgba(255,0,0,0.2);
+	}
+</style>
     <body>
+		<div class="box">
+			<a href="scale.html">地址一</a>
+			<a href="scale_compress.html">地址二</a>
+			<a href="../picture002/index.html">地址三</a>
+		</div>
         <div class="clip-content">
             <div class="upload-container choose-gallery">
                 <div class="upload-pretty button-three-dimen">
